@@ -23,6 +23,7 @@ long last_tx = 0; // Initialize last_tx to 0
 
 void setup() {
   heltec_setup();
+  heltec_ve(true);
   Serial.begin(115200); // Initialize serial communication at 115200 baud
   Serial.println();
 
